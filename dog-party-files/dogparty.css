@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /*margin-left: 60px;*/
+  outline: black 1.8px solid;
+  width: 100%;
+  /*height: 1100px;*/
+  /*overflow: auto;*/
+  margin:0;
+  font-family: 'Open Sans', sans-serif
+}
+hr {
+    padding: 0px;
+    margin: -1px;
+}
+p {
+    color: black;
+    text-align: left;
+    white-space: normal;
+    font-size: 17px;
+    margin-top: 40px;
+    min-height: 280px;
+}
+h2 {
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 27px;
+}
+h3 {
+  font-size: 28px;
+  transform: translateY(30px);
+  position: absolute;
+  color: white;
+  margin: 0px;
+  font-weight: lighter;
+  }
+h4 {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #048eaa;
+    color: white;
+    vertical-align: bottom;
+    text-align: center;
+    margin-top: 10px;
+     letter-spacing: 1px;
+
+}
+form {
+  margin: 0px;
+  position: relative;
+
+
+}
+.container1 {
+    width: 100%;
+    /* height: 50px; */
+    background-color: #75e2e6;
+    display: table;
+    position: relative;
+    border-bottom: #048eaa 3px solid;
+}
+.logo1 {
+    /* background-repeat: no-repeat; */
+    vertical-align: middle;
+    display: table-cell;
+    width: 50px;
+}
+.logo1 img {
+    width: 40px;
+    vertical-align: middle;
+    margin: 10px;
+    margin-left: 14px;
+}
+.list1 {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    text-align: right;
+}
+.listLi {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 10px;
+    margin-right: 26px;
+}
+.image1 {
+  background-image: url(file:///Users/maxwellsilver/Downloads/park.jpg);
+  width: 100%;
+  height: 425px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.mainHeading {
+    width: 360px;
+    /* height: 400px; */
+    font-size: 35px;
+    position: relative;
+    /* transform: translateX(50%); */
+    letter-spacing: 2px;
+    margin: auto;
+    text-decoration: none;
+}
+
+.image1:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: hsla(0, 0%, 0%, .5);
+}
+
+.dogPortrait1 {
+    border-radius: 50%;
+    border: 3px solid #048eaa;
+    height: 171px;
+    width: 171px;
+    /* margin-right: 50px; */
+    margin-left: 85px;
+    margin-top: 90px;
+}
+.container3 {
+    width: 100%;
+    /* height: 400px; */
+    position: relative;
+    align-content: center;
+    text-align: center;
+
+ 
+}
+.column {
+    display: inline-block;
+    padding: 25px;
+    width: 33%;
+    vertical-align: top;
+    /* margin-left: 21px; */
+    /* margin-right: 20px; */
+}
+
+.dogPortraits {
+  border-radius: 50%;
+  border: 3px solid #048eaa;
+  height: 171px;
+  width: 171px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.container4 {
+  background-color:#048eaa ;
+  width: 100%;
+  height: 196px;
+}
+.button {
+  display: inline-block;
+  width: 200px;
+}
+.formName {
+  font-size: 18px;
+  border: none;
+  color: white;
+  }
+
+.inputBar {
+  width: 360px;
+  height: 40px;
+  border: 1px black solid;
+  border-radius: 3px;
+  margin-top:10px;
+
+}
+
+.formSubmit {
+  width: 360px;
+  height: 40px;
+  border: none;
+  background-color:#75e2e6;
+  font-size: 18px;
+  margin-top:15px;
+  text-align:center;
+  border-radius: 3px;
+}
+.submissionBox {
+  width: 40%;
+ 
+}
+.dogText {
+  vertical-align: text-top;
+  display:inline-block;
+  text-decoration: bold;
+
+}
+.buttonsArticle {
+  width: 100%;
+  display: inline-block;
+
+}
+.logBar {
+    width: 243px;
+    margin: auto;
+    position: relative;
+    top: 20px;
+}
+.socImg {
+  margin: 0px 05px 0px 05px;
+}
+.botText{
+  position: relative;
+    top: 15px;
+}
+.stronger {
+  font-weight: 900;
+}
+@media only screen and (max-width: 840px) {
+.column {
+    width:60%;
+    padding: 25px;
+  }
+  p {
+    min-height:auto;
+  }
+ 
+}
+@media only screen and (max-width: 540px) {
+
+ .listLi {
+    list-style-type: none;
+    margin:auto;
+    width:100%;
+
+
+
+  }
+}
+
+
+
